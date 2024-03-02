@@ -1,0 +1,81 @@
+"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=53418:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\ADMIN\IdeaProjects\First\out\production\First Macro1
+Macro Pass 1
+
+MACRO length --> 1
+
+INCR length --> 6
+
+Writing to MDT Line#0
+INCR &X &Y &REG1 = AREG 
+
+MNT Update Line#0
+
+MOVER length --> 3
+
+Writing to MDT Line#1
+MOVER &REG1 &X 
+
+ADD length --> 3
+
+Writing to MDT Line#2
+ADD &REG1 &Y 
+
+MOVEM length --> 3
+
+Writing to MDT Line#3
+MOVEM &REG1 &X 
+
+MEND length --> 1
+
+Writing to MDT Line#4
+MEND 
+
+MACRO length --> 1
+
+DECR length --> 6
+
+Writing to MDT Line#5
+DECR &A &B &REG2 = BREG 
+
+MNT Update Line#1
+
+MOVER length --> 3
+
+Writing to MDT Line#6
+MOVER &REG2 &A 
+
+SUB length --> 3
+
+Writing to MDT Line#7
+SUB &REG2 &B 
+
+MOVEM length --> 3
+
+Writing to MDT Line#8
+MOVEM &REG2 &A 
+
+MEND length --> 1
+
+Writing to MDT Line#9
+MEND 
+
+START length --> 2
+
+READ length --> 2
+
+READ length --> 2
+
+DECR length --> 3
+
+INCR length --> 3
+
+STOP length --> 1
+
+N1 length --> 3
+
+N2 length --> 3
+
+END length --> 1
+
+
+Process finished with exit code 0
